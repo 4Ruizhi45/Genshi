@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://genshi-self.vercel.app/</loc>
+  <lastmod>2026-02-25T19:22:26+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/index.html</loc>
+  <lastmod>2026-02-25T19:22:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/mondstadt.html</loc>
+  <lastmod>2026-02-25T19:22:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/wendi.html</loc>
+  <lastmod>2026-02-25T19:22:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/liyue1.html</loc>
+  <lastmod>2026-02-25T19:22:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/morax.html</loc>
+  <lastmod>2026-02-25T19:22:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/inazuma.html</loc>
+  <lastmod>2026-02-25T19:22:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/beelzebul.html</loc>
+  <lastmod>2026-02-25T19:22:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/sumeru.html</loc>
+  <lastmod>2026-02-25T19:22:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/kusanali.html</loc>
+  <lastmod>2026-02-25T19:22:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/fontaine.html</loc>
+  <lastmod>2026-02-25T19:22:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/focalors.html</loc>
+  <lastmod>2026-02-25T19:22:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/natlan.html</loc>
+  <lastmod>2026-02-25T19:22:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/mareveka.html</loc>
+  <lastmod>2026-02-25T19:22:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://genshi-self.vercel.app/opinio.html</loc>
+  <lastmod>2026-02-25T19:22:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
