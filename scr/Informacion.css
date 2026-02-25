@@ -1,0 +1,778 @@
+/*para ordenador*/ 
+
+@media (min-width:1300px) 
+
+{ 
+
+
+    body 
+
+    { 
+
+        background-image: url(fondo.jpeg); 
+
+    } 
+
+   #fondo 
+
+    { 
+
+        background-image:url(genshin.jpeg); 
+       min-height: 60px; 
+
+        padding: 10px 15px; 
+
+        position: sticky; 
+
+        top:0; 
+
+    } 
+
+
+    #menu 
+
+    { 
+
+        display:flex; 
+
+        justify-content: space-between; 
+
+        align-items: center; 
+
+        width:100%; 
+
+        position:sticky;  
+
+        top:0; 
+
+    } 
+    .menu-link
+    {
+        color: white; 
+        text-decoration: none;
+        margin-right: 15px;
+        width:20px;
+        border:2px solid black;
+        background-color: black;
+    }
+
+   
+
+    #logo img 
+
+    { 
+
+        position: absolute; 
+
+        top: 10px; 
+
+        width: 80px; 
+
+        height: auto; 
+
+    } 
+
+    #lista 
+
+    { 
+
+        display:flex; 
+
+    } 
+
+ 
+ 
+
+    #l1 
+
+    { 
+
+        display: flex; 
+
+        justify-content: flex-end; 
+
+        margin-top: 80px; 
+
+        width:100%; 
+
+        font-size: 20px; 
+
+
+    } 
+
+
+    #titulo 
+
+    { 
+
+        display: flex; 
+
+    } 
+
+    #t1 
+
+    { 
+
+        text-align: center; 
+
+    } 
+
+
+    #cja
+    {
+        display: flex;
+        justify-content: center;
+        gap:15px;
+        margin-top: 15px;
+    }
+
+    #cja:hover
+    {
+        animation: flotarHover 0.8s ease-in-out infinite; 
+        transform-origin: center; 
+        cursor: pointer;
+    }
+    @keyframes flotarHover 
+    { 
+    0% 
+    { 
+        transform: translateY(0); 
+    } 
+    50% 
+    { 
+        transform: translateY(-8px); 
+    } 
+    100% 
+    { 
+        transform: translateY(0); 
+    } 
+    }
+    .im0:hover
+    {
+        content:url("liyue/HoYoWiki-image\ \(2\).png");
+    }
+    .im01:hover
+    {
+        content:url("liyue/HoYoWiki-image\ \(4\).png")
+    }
+    .im02:hover
+    {
+        content:url("liyue/HoYoWiki-image\ \(10\).png")
+    }
+    .im1:hover
+    {
+        content: url("daoqi/HoYoWiki-image\ \(3\).png");
+    }
+    .im2:hover
+    {
+        content:url("daoqi/HoYoWiki-image\ \(9\).png");
+    }
+    .im3:hover
+    {
+        content:url("daoqi/HoYoWiki-image\ \(15\).png");
+    }
+        .im30:hover
+    {
+        content:url("caoshen/HoYoWiki-image\ \(3\).png")
+    }
+    .im31:hover
+    {
+        content:url("caoshen/HoYoWiki-image\ \(6\).png")
+    }
+    .im32:hover
+    {
+        content:url("caoshen/HoYoWiki-image\ \(8\).png")
+    }
+        .im4:hover
+    {
+        content:url("fenda/HoYoWiki-image\ \(5\).png");
+    }
+    .im41:hover
+    {
+        content:url("fenda/HoYoWiki-image\ \(6\).png");
+    }
+    .im42:hover
+    {
+        content:url("fenda/HoYoWiki-image\ \(18\).png");
+    }
+        #desc
+    {
+        border: 2px solid coral;
+        border-radius: 10px;
+        background-color: chocolate;
+        margin: auto;
+        width: 1300px;
+    }
+    #desc img
+    {
+        margin-left: 22px;
+        width: 400px;
+        transition: 0.3s;
+
+    }
+            
+#paisaje
+    {
+        border:2px solid green;
+        border-radius: 15px;
+        width:450px;
+        background-color: rgb(238, 242, 242);
+        padding: 10px;
+    }
+    #paisaje img
+    {
+        width:400px;
+        height:auto;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+
+        #paisaje2
+    {
+        border:2px solid green;
+        border-radius: 15px;
+        width:450px;
+        padding: 10px;
+        background-color:#01AAFF;
+    }
+    #paisaje2 img
+    {
+        width:400px;
+        height:auto;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+
+    
+        #paisaje3
+    {
+        border:2px solid green;
+        border-radius: 15px;
+        width:450px;
+        padding: 10px;
+        background-color:#ABEFF5;
+    }
+    #paisaje3 img
+    {
+        width:400px;
+        height:auto;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+ 
+ 
+
+} 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+/*para tablet*/ 
+
+@media (min-width:600px) and (max-width:1300px) 
+
+{ 
+
+
+    body 
+
+    { 
+
+        background-image: url(fondo.jpeg); 
+
+    } 
+
+ #fondo 
+
+    { 
+
+        background-image: url(genshin.jpeg); 
+
+        background-size: cover; 
+
+        background-position: center; 
+
+        background-repeat: no-repeat; 
+
+       min-height: 160px; 
+
+        padding: 10px 15px; 
+
+        position:sticky;  
+
+        top:0; 
+
+ 
+ 
+
+    } 
+    
+ 
+ 
+
+    #menu 
+
+    { 
+
+        display:flex; 
+
+        justify-content: space-between; 
+
+        align-items: center; 
+
+        width:100%; 
+
+        position:sticky;  
+
+        top:0; 
+
+    } 
+    .menu-link
+    {
+        color: white; 
+        text-decoration: none;
+        margin-right: 15px;
+        width:20px;
+        border:2px solid black;
+        background-color: black;
+    }
+
+   
+
+    #logo img 
+
+    { 
+
+        position: absolute; 
+
+        top: 10px; 
+
+        width: 80px; 
+
+        height: auto; 
+
+    } 
+
+    #lista 
+
+    { 
+
+        display:flex; 
+
+    } 
+
+ 
+ 
+
+    #l1 
+
+    { 
+
+        display: flex; 
+
+        justify-content: flex-end; 
+
+        margin-top: 80px; 
+
+        width:100%; 
+
+        font-size: 20px; 
+
+
+    } 
+
+
+    #titulo 
+
+    { 
+
+        display: flex; 
+
+    } 
+
+    #t1 
+
+    { 
+
+        text-align: center; 
+
+    } 
+    .im0:hover
+    {
+        content:url("liyue/HoYoWiki-image\ \(2\).png");
+    }
+    .im01:hover
+    {
+        content:url("liyue/HoYoWiki-image\ \(4\).png")
+    }
+    .im02:hover
+    {
+        content:url("liyue/HoYoWiki-image\ \(10\).png")
+    }
+    .im1:hover
+    {
+        content: url("daoqi/HoYoWiki-image\ \(3\).png");
+    }
+    .im2:hover
+    {
+        content:url("daoqi/HoYoWiki-image\ \(9\).png");
+    }
+    .im3:hover
+    {
+        content:url("daoqi/HoYoWiki-image\ \(15\).png");
+    }  
+    .im30:hover
+    {
+        content:url("caoshen/HoYoWiki-image\ \(3\).png")
+    }
+    .im31:hover
+    {
+        content:url("caoshen/HoYoWiki-image\ \(6\).png")
+    }
+    .im32:hover
+    {
+        content:url("caoshen/HoYoWiki-image\ \(8\).png")
+    }
+        .im4:hover
+    {
+        content:url("fenda/HoYoWiki-image\ \(5\).png");
+    }
+    .im41:hover
+    {
+        content:url("fenda/HoYoWiki-image\ \(6\).png");
+    }
+    .im42:hover
+    {
+        content:url("fenda/HoYoWiki-image\ \(18\).png");
+    }
+    #desc
+    {
+        border: 2px solid coral;
+        border-radius: 10px;
+        background-color: rgb(238, 242, 242);
+        margin: auto;
+        width: 600px;
+    }
+    #desc img
+    {
+        margin-left:35px;
+        width: 150px;
+    }
+    
+
+    #paisaje
+    {
+        border:2px solid green;
+        border-radius: 15px;
+        width:600px;
+        height:auto;
+        margin: auto;
+        background-color:#CC7562;
+    }
+    #paisaje img
+    {
+        width:400px;
+        height:auto;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+
+        #paisaje2
+    {
+        border:2px solid green;
+        border-radius: 15px;
+        width:600px;
+        height:auto;
+        margin: auto;
+        background-color:#01AAFF;
+    }
+    #paisaje2 img
+    {
+        width:400px;
+        height:auto;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+
+    
+        #paisaje3
+    {
+        border:2px solid green;
+        border-radius: 15px;
+        width:600px;
+        height:auto;
+        margin: auto;
+        background-color:#ABEFF5;
+    }
+    #paisaje3 img
+    {
+        width:400px;
+        height:auto;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+ 
+ 
+
+} 
+
+@media (max-width:600px) 
+
+{ 
+
+    #Imagenes
+    {
+        max-width: 400px;
+        height:800px;
+    }
+    body 
+
+    { 
+
+        background-image: url(fondo.jpeg); 
+
+    } 
+
+    #fondo 
+
+    { 
+
+        background-image: url(fondo.jpeg); 
+
+        background-size: cover; 
+
+        background-position: center; 
+
+        background-repeat: no-repeat; 
+
+        min-height: 100px; 
+
+        padding: 10px 15px; 
+
+
+        position:sticky;  
+
+        top:0; 
+
+ 
+ 
+
+    } 
+
+ 
+ 
+
+    #menu 
+
+    { 
+
+        display:flex; 
+
+        justify-content: space-between; 
+
+        align-items: center; 
+
+        width:100%; 
+
+        position:sticky;  
+
+        top:0; 
+
+    } 
+    .menu-link
+    {
+        color: white; 
+        text-decoration: none;
+        margin-right: 15px;
+        width:20px;
+        border:2px solid black;
+        background-color: black;
+    }
+
+
+   #logo img 
+
+   { 
+
+    width:60px; 
+
+     
+
+   } 
+
+      #lista 
+
+    { 
+
+        display:flex; 
+
+    } 
+
+ 
+ 
+
+    #l1 
+
+    { 
+
+        display: flex; 
+
+        justify-content: flex-end; 
+
+        margin-top: 50px; 
+
+        width:100%; 
+
+        font-size: 20px; 
+
+    } 
+
+        #titulo 
+
+    { 
+
+        display: flex; 
+
+    } 
+
+    #t1 
+
+    { 
+
+        text-align: center; 
+
+    } 
+
+
+        #paisaje
+    {
+        border:2px solid green;
+        border-radius: 15px;
+        max-width:520px;
+        height:auto;
+        margin: auto;
+        background-color:#CC7562;
+    }
+    #paisaje img
+    {
+        max-width:400px;
+        height:auto;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+
+        #paisaje2
+    {
+        border:2px solid green;
+        border-radius: 15px;
+        max-width:520px;
+        height:auto;
+        margin: auto;
+        background-color:#01AAFF;
+    }
+    #paisaje2 img
+    {
+        max-width:400px;
+        height:auto;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+
+    
+        #paisaje3
+    {
+        border:2px solid green;
+        border-radius: 15px;
+        max-width:520px;
+        height:auto;
+        margin: auto;
+        background-color:#ABEFF5;
+    }
+    #paisaje3 img
+    {
+        max-width:400px;
+        height:auto;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+
+    .im0:hover
+    {
+        content:url("liyue/HoYoWiki-image\ \(2\).png");
+    }
+    .im01:hover
+    {
+        content:url("liyue/HoYoWiki-image\ \(4\).png")
+    }
+    .im02:hover
+    {
+        content:url("liyue/HoYoWiki-image\ \(10\).png")
+    }
+    .im1:hover
+    {
+        content: url("daoqi/HoYoWiki-image\ \(3\).png");
+    }
+    .im2:hover
+    {
+        content:url("daoqi/HoYoWiki-image\ \(9\).png");
+    }
+    .im3:hover
+    {
+        content:url("daoqi/HoYoWiki-image\ \(15\).png");
+    }
+        .im30:hover
+    {
+        content:url("caoshen/HoYoWiki-image\ \(3\).png")
+    }
+    .im31:hover
+    {
+        content:url("caoshen/HoYoWiki-image\ \(6\).png")
+    }
+    .im32:hover
+    {
+        content:url("caoshen/HoYoWiki-image\ \(8\).png")
+    }
+
+    .im4:hover
+    {
+        content:url("fenda/HoYoWiki-image\ \(5\).png");
+    }
+    .im41:hover
+    {
+        content:url("fenda/HoYoWiki-image\ \(6\).png");
+    }
+    .im42:hover
+    {
+        content:url("fenda/HoYoWiki-image\ \(18\).png");
+    }
+        #desc
+    {
+        border: 2px solid coral;
+        border-radius: 10px;
+        background-color: rgb(238, 242, 242);
+        margin: auto;
+        max-width: 500px;
+    }
+    #desc img
+    {
+        margin-left: 25px;
+        max-width: 400px;
+        transition: 0.3s;
+
+    }
+
+} 

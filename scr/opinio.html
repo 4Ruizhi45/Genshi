@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="opinion.css">
+    </head>
+    <body>
+               <div id="fondo"> 
+            <nav id="menu"> 
+                <div id="logo"> 
+                    <img src="Logo_genshin.jpeg"> 
+                </div> 
+                <div id="lista"> 
+                    <ul> 
+                        <li> 
+                            <a href="index.html" class="menu-link">Inicio</a> 
+                        </li> 
+                        <li> 
+                            <a href="mondstadt.html" class="menu-link">Mondstadt</a> 
+                            <ul class="submenu"> 
+                                <li>
+                                    <a href="wendi.html" class="menu-link">Wendi</a>
+                                </li> 
+                            </ul> 
+                        </li> 
+                        <li>
+                            <a href="liyue1.html" class="menu-link">Liyue</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="morax.html" class="menu-link">Morax</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="inazuma.html" class="menu-link">Inazuma</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="beelzebul.html" class="menu-link">Beelzebul</a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="sumeru.html" class="menu-link">Sumeru</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="kusanali.html" class="menu-link">Kusanali</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="fontaine.html" class="menu-link">Fontaine</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="focalors.html" class="menu-link">Focalors</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="natlan.html" class="menu-link">Natlan</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="mareveka.html" class="menu-link">Mareveka</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="opinio.html"class="menu-link">Opinion</a>
+                        </li>
+                    </ul> 
+                </div> 
+            </nav>  
+
+        </div> 
+        <form action="" method="post" enctype="multipart/form-data"> <!--permite usuario adjunta archivos-->
+            <!--Datos personales-->
+        <fieldset id="c0">
+            <legend>Formulario</legend>
+            <fieldset id="c1">
+            <legend>Datos de Contacto</legend>
+            Nombre:
+            <br>
+            <input type="text" name="nombre" placeholder="" size=25 >
+            <br>
+            Apellido:
+            <br>
+            <input type="text" name="apellido" placeholder="" size=25>
+            <br>
+            Teléfono:
+            <br>
+            <input type="number,text" name="dirección postal" size="25">
+            <br>
+            Email:
+            <br>
+            <input type="text" name="población" size="25">
+            <br>
+            Dirección:
+            <br>
+            <input type="text,number" name="código postal" size="25">
+            <br>
+            Observaciones:
+            <br>
+            <textarea rows="10" cols="50" name="observaciones" class="gris"></textarea>
+            </fieldset>
+        </fieldset>
+            <fieldset id="c2">
+                <legend>Datos adicionales</legend>
+                Selecciona las cosas que ha gustado sobre la pagina:
+                <br>
+                <input type="checkbox" name="campos1" value="Diseño de página web">Deseño de página web<br>
+                <input type="checkbox" name="campos2" value="Historia">Historia de las paises<br>
+                <input type="checkbox" name="campos3" value="Imagenes">Imagenes que han usado la pagina<br>
+                <input type="checkbox" name="campos4" value="Contenidos">Contenidos de la pagina<br>
+                -------------------------------------------------------------------------
+                <br>
+                ¿Deseas recibir actualizaciones por correo electrónicio?
+                <br>
+                <input type="radio" name="campos1" value="Sí">Sí<br>
+                <input type="radio" name="campos1" value="No">No<br>
+                <input type="radio" name="campos1" value="Tal vez">Tal vez<br>                 
+                -------------------------------------------------------------------------
+                <br>
+                ¿Cómo nos has conocido?
+                <select>
+                    <option value="Selecciona">Selecciona</option>
+                    <option value="Internet">Internet</option>
+                    <option value="Otros">Otros</option>
+                </select>
+                <br>
+                <br>
+
+                <input id="botones" type="reset" value="Reset">
+                <input id="botones" type="Submit" value="Submit">
+
+                <br>
+            </fieldset>
+       
+    </body>
+</html>

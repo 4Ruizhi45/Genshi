@@ -1,0 +1,287 @@
+<!DOCTYPE html> 
+
+<html> 
+
+    <head> 
+
+        <link rel="stylesheet" href="Informacion.css"> 
+
+        <style> 
+            #lista > ul 
+            { 
+            list-style: none; 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            justify-content: flex-end; 
+            margin-top: 80px;
+            }
+            #lista ul li
+            {
+                position: relative;
+                list-style: none;
+            }
+            .submenu
+            {
+                display: none;
+                position: absolute;
+                top:100%;
+                left: 0;
+                padding: 0;
+                
+            }
+            #lista ul li:hover .submenu
+            {
+                display: block;
+            }
+            #Infor table
+            {
+                width: 90%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                background-color: #50ca14;
+                color: white;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 0 0 15px rgba(0,0,0,0.4);
+            }
+
+            #Infor th
+             {
+                background-color: rgb(45, 130, 12);
+                padding: 15px;
+                font-size: 20px;
+                text-align: center;
+                color: aquamarine;
+            }
+
+            #Infor td 
+            {
+                padding: 20px;
+            }
+
+            #Infor img
+            {
+                width: 120px;
+                float: left;
+                margin-right: 20px;
+                border-radius: 10px;
+            }
+  .final 
+   { 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px 0; 
+    margin-top: 40px; 
+    background-color: black;
+    } 
+    #fim img 
+    { 
+        width: 120px; 
+        border-radius: 10px; 
+     }
+   
+        </style> 
+
+    </head> 
+
+    <body> 
+               <div id="fondo"> 
+            <nav id="menu"> 
+                <div id="logo"> 
+                    <img src="Logo_genshin.jpeg"> 
+                </div> 
+                <div id="lista"> 
+                    <ul> 
+                        <li> 
+                            <a href="index.html" class="menu-link">Inicio</a> 
+                        </li> 
+                        <li> 
+                            <a href="mondstadt.html" class="menu-link">Mondstadt</a> 
+                            <ul class="submenu"> 
+                                <li>
+                                    <a href="wendi.html" class="menu-link">Wendi</a>
+                                </li> 
+                            </ul> 
+                        </li> 
+                        <li>
+                            <a href="liyue1.html" class="menu-link">Liyue</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="morax.html" class="menu-link">Morax</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="inazuma.html" class="menu-link">Inazuma</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="beelzebul.html" class="menu-link">Beelzebul</a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="sumeru.html" class="menu-link">Sumeru</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="kusanali.html" class="menu-link">Kusanali</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="fontaine.html" class="menu-link">Fontaine</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="focalors.html" class="menu-link">Focalors</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="natlan.html" class="menu-link">Natlan</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="mareveka.html" class="menu-link">Mareveka</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="opinio.html"class="menu-link">Opinion</a>
+                        </li>
+                    </ul> 
+                </div> 
+            </nav>  
+
+        </div> 
+        <div id="titulo"> 
+
+            <div id="t1"><h1><strong><em>Genshi Impact</em></strong></h1></div> 
+
+        </div> 
+
+   
+
+        <div id="t1"><h2>Sumeru</h2></div> 
+
+        <div id="Infor">
+            <table border="2">
+                <tr>
+                    <th>Historia</th>
+                </tr>
+                <tr>
+                    <td>
+                   <h4>1.Llegada a Sumeru y el control del Akademiya</h4>
+                   <img src="caoshen/genshin-impact-sumer-review-5.jpg">
+                    <p>El Viajero llega a Sumeru buscando respuestas sobre su hermano/a. Pronto descubre que la nación está dominada por el Akademiya, una institución que controla el conocimiento y reprime cualquier pensamiento “no lógico”. La Arconte Dendro, la Pequeña Reina Kusanali (Nahida), está misteriosamente ausente de la vida pública.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h4>2.Encuentro con Nahida</h4>
+                    <img src="caoshen/OIP.webp">
+                    <p>El Viajero conoce a Nahida, quien revela que ha estado encerrada durante 500 años por el Akademiya. Ella explica que los sabios planean crear un “dios perfecto” usando tecnología y conocimientos prohibidos. Nahida pide ayuda al Viajero para detenerlos.</p>                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h4>3. El proyecto del “Dios Sabio”</h4>
+                    <img src="caoshen/maxresdefault.jpg">
+                    <p>El Akademiya está construyendo un ser artificial llamado Scaramouche, usando la Gnosis Electro robada en Inazuma. Su objetivo es reemplazar a Nahida con un Arconte artificial que obedezca sus órdenes. Los sabios creen que un dios creado por ellos será superior a uno nacido de Celestia.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h4>4. El desierto y los Eremitas</h4>
+                    <img src="caoshen/HoYoWiki-image (5).png">
+                    <p>El Viajero viaja al desierto de Sumeru, donde descubre que los Eremitas y el pueblo del desierto han sido manipulados por el Akademiya. Los sabios usan información falsa para enfrentar a las tribus entre sí y mantenerlas divididas. El Viajero conoce a personajes clave como Cyno, Dehya y Alhaitham, quienes se unen para detener el plan de los sabios.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h4>5. El ascenso del Dios Sabio</h4>
+                    <img src="caoshen/maxresdefault.jpg">
+                    <p>A pesar de los esfuerzos del Viajero, el Akademiya logra activar a Scaramouche, quien se convierte en el Dios Sabio (Shouki no Kami). Scaramouche obtiene un poder inmenso gracias a la Gnosis Electro y amenaza con destruir Sumeru. Nahida queda atrapada en una red de control mental creada por los sabios.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h4>6. La batalla contra Scaramouche</h4>
+                    <img src="caoshen/R.jpg">
+                    <p>El Viajero, con la ayuda de Nahida, enfrenta al Dios Sabio en una batalla decisiva. Nahida logra romper el control del Akademiya y libera su verdadero poder como Arconte Dendro. Finalmente, Scaramouche es derrotado y su cuerpo artificial queda destruido. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h4>7. La verdad sobre el pasado de Scaramouche</h4>
+                    <img src="caoshen/maxresdefault (1).jpg">
+                    <p>Nahida accede a los recuerdos de Scaramouche y descubre su historia: fue creado por Ei como un prototipo de marioneta, pero fue abandonado. Su sufrimiento lo llevó a unirse a los Fatui. Nahida decide borrar parte de sus recuerdos para darle una oportunidad de empezar de nuevo.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h4>8.Caída del Akademiya </h4>
+                    <img src="caoshen/thumb-1920-1303770.jpg">
+                    <p>Los sabios responsables del proyecto son arrestados. Alhaitham se convierte en el nuevo Gran Sabio. Sumeru comienza una nueva era basada en la libertad del conocimiento y la cooperación entre la ciudad y el desierto. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h4>9. Conclusión del arco de Sumeru</h4>
+                    <img src="caoshen/HoYoWiki-image (13).png">
+                    <p>Nahida entrega al Viajero nueva información sobre su hermano/a: él viaja por Teyvat siguiendo un propósito desconocido y ha tomado decisiones que lo alejan del Viajero. Con estas nuevas pistas, el Viajero se prepara para viajar a Fontaine.</p>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+
+        <div id="desc">
+            <img src="caoshen/HoYoWiki-image.png" class="im30">
+            <img src="caoshen/HoYoWiki-image (10).png" class="im31">
+            <img src="caoshen/HoYoWiki-image (11).png" class="im32">
+            <p>Sumeru es la capital académica ubicada en el centro-oeste del continente de Teyvat, un extraño país que cuenta tanto con frondosas selvas como con áridos desiertos. Aquí crecen y se entierran innumerables frutos de sabiduría. Ya sea atravesando la jungla para subir los escalones de la ciudad académica o adentrándose en el desierto para excavar las ruinas del suelo rojo, los viajeros que vienen de lejos pueden adquirir valiosos conocimientos aquí.</p>
+        </div>
+
+
+
+
+
+
+        <div id="cja">
+        <div id="paisaje">
+            <div id="img1"><img src="caoshen/genshin-impact-sumer-review-5.jpg"></div>
+            <h4>Academia Legislativa</h4>
+            <p>La Academia Legislativa de Sumeru se encuentra en el centro de la ciudad de Sumeru. La academia está dividida en seis facultades, cada una con especialidades distintas. La Academia Legislativa reúne a muchos eruditos y sabios, y posee una gran cantidad de conocimientos, los cuales se gestionan de manera unificada a través del sistema del Vacío</p>
+        </div>
+
+        <div id="paisaje2">
+            <div id="img2"><img src="caoshen/HoYoWiki-image (9).png"></div>
+            <h4>Mil barrancos de arena</h4>
+            <p>Está ubicado en la parte norte de Xumi y presenta un patrón en espiral centrado en un tornado. Debido a la influencia del enorme tornado en el centro, a menudo se levantan fuertes tormentas de arena, y la visibilidad se reduce significativamente durante estas tormentas. Cuanto más cerca se esté del centro de la tormenta de arena, más intensa será esta y más severo será el entorno. Las tormentas de arena son un desastre climático intermitente característico de los Mil barrancos de arena; estar en medio de ellas reduce considerablemente la visibilidad. Cuanto más cerca se esté del centro de la tormenta, más intensa será la tormenta de arena.</p>
+        </div>
+
+        <div id="paisaje3">
+            <div id="img3"><img src="caoshen/HoYoWiki-image (3).png"></div>
+            <h4>Selva del cielo y el agua</h4>
+            <p>Un bosque profundo donde la lluvia nunca termina. Gigantescos árboles robustos se levantan del suelo, creciendo sin restricciones hacia el cielo, tal vez algún día llegando a tocar las estrellas. Pero bajo el dosel, la lluvia nunca cesa.</p>
+        </div>
+        </div>
+         <footer class="final">
+            <div id="fim"><img src="Logo_genshin.jpeg"></div>
+        </footer>
+ 
+ 
+ 
+ 
+ 
+
+        <audio id="bgm" src="caoshen.mp3" loop></audio> <script> document.addEventListener('click', function () { const audio = document.getElementById('bgm'); audio.play(); }, { once: true }); </script>      
+
+ 
+ 
+
+    </body> 
+
+</html> 
